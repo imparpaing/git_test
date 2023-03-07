@@ -1,0 +1,21 @@
+.red-background p {
+    background-color: hsl(0, 100%, 80%);
+    color: hsl(0, 0%, 0%);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+}
+
+#blue-text p {
+    color: hsl(230, 100%, 44%);
+    font-size: 36px;
+}
+
+.red-background.big-letters {
+    font-size: 24px;
+}
+
+#green-background p {
+    background-color: hsla(90, 100%, 68%, 0.5);
+    color:hsl(0, 0%, 0%);
+    font-size: 24px;
+    font-weight: 700;
+}
