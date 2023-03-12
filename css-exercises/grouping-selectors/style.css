@@ -1,0 +1,14 @@
+.block-one, .block-two {
+    font-size: 28px;
+    font-family: "Helvetivca", "Times New Roman", "Sans-serif";
+}
+
+.block-one {
+    color: hsl(360, 100%, 100%);
+    background-color: hsl(0, 0%, 0%);
+}
+
+.block-two {
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(60, 100%, 50%);
+}
