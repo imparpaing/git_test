@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+    color: hsla(0, 0%, 100%, 0.904);
+}
+
+header {
+    padding: 0px 25px;
+}
+
+main {
+    padding: 0px 10px;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+}
+
+main ul li a {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: upper-latin;
+}
+
+li a {
+    color: hsl(360, 100%, 100%);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: hsl(50, 90%, 92%);
+}
+
+a:visited {
+    color: hsl(50, 90%, 70%);
+}
