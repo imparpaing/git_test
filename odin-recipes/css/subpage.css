@@ -28,3 +28,14 @@ p {
 li {
     font-size: 18px;
 }
+
+.navigation .back-button a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.904);
+    text-decoration: none;
+}
+
+.navigation .back-button a:hover {
+    color: hsl(50, 90%, 92%);
+}
