@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: 5px solid blueviolet;
+    width: 400px;
+    height: 400px;
+}
+
+.centered-item {
+    background-color: red;
+    border: 5px solid hsl(0, 100%, 39%);
+    width: 120px;
+    height: 120px;
+}
+
+.centered-item h1 {
+    text-align: center;
+    font-size: 1.4rem;
+}
