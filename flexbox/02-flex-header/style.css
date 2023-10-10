@@ -1,0 +1,25 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: bisque;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+    background-color: white;
+    color: blue;
+    padding: 6px;
+}
+
+#logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: red;
+    margin: auto;
+    padding: 6px 18px;
+}
