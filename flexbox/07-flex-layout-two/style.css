@@ -71,8 +71,8 @@ li a {
 }
 
 .sidebar {
-  flex: 1 0 0;
-  min-width: 300px;
+  flex: 1;
+  min-width: max-content;
   padding: 16px;
 }
 
