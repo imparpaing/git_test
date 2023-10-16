@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo a {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary-text a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-links ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
