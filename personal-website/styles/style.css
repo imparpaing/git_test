@@ -7,6 +7,8 @@ body {
   font-family: Roboto;
 }
 
+/* Header nav */
+
 header {
   background-color: #1f2937;
   padding: 16px;
@@ -42,4 +44,49 @@ a {
   display: flex;
   gap: 16px;
   list-style-type: none;
+}
+
+/* Header hero */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.flex-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flex-left h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.flex-left p {
+  font-size: 18px;
+  text-align: justify;
+  color: #e5e7eb;
+}
+
+.flex-left button {
+  max-width: max-content;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 32px;
+}
+
+.flex-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
