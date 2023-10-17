@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body {
+.container {
   font-family: Roboto;
 }
 
@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: #1f2937;
-  padding: 16px;
+  padding: 16px 20vw;
 }
 
 nav {
