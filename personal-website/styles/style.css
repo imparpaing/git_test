@@ -90,3 +90,11 @@ a {
   flex: 1;
   justify-content: center;
 }
+
+.hero button a {
+  color: #fff;
+}
+
+.hero button:hover {
+  cursor: pointer;
+}
