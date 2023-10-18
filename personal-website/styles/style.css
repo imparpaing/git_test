@@ -91,6 +91,13 @@ a {
   justify-content: center;
 }
 
+.flex-right img {
+  max-width: 90%;
+  max-height: 90%;
+  border: none;
+  border-radius: 10px;
+}
+
 .hero button a {
   color: #fff;
 }
