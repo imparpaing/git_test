@@ -105,3 +105,49 @@ a {
 .hero button:hover {
   cursor: pointer;
 }
+
+/* Main body content */
+
+main {
+  padding: 16px 20vw;
+}
+
+/* Square info box */
+
+.square-info-box {
+  padding-bottom: 64px;
+}
+
+.main-info-container {
+  margin: 32px 0;
+  text-align: center;
+}
+
+h3.main-info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.square-info-boxes {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.info-box img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid blue;
+  border-radius: 10px;
+}
