@@ -108,13 +108,10 @@ a {
 
 /* Main body content */
 
-main {
-  padding: 16px 20vw;
-}
-
 /* Square info box */
 
 .square-info-box {
+  padding: 64px 20vw;
   padding-bottom: 64px;
 }
 
@@ -150,4 +147,24 @@ h3.main-info-header {
   height: 150px;
   border: 3px solid blue;
   border-radius: 10px;
+}
+
+/* Quote section */
+
+.quote-text-block {
+  background-color: #e5e7eb;
+  padding: 128px 20vw;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
 }
