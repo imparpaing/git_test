@@ -168,3 +168,46 @@ h3.main-info-header {
   font-weight: bold;
   text-align: right;
 }
+
+/* CTA section */
+
+.cta {
+  padding: 64px 5vw;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+  padding: 64px 15vw;
+}
+
+.cta-text {
+  color: #f9faf8;
+}
+
+.cta-text h4 {
+  font-size: 18px;
+}
+
+.cta-container button {
+  min-width: max-content;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: medium;
+  font-weight: bold;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  padding: 8px 32px;
+}
+
+.cta-container button a {
+  color: #f9faf8;
+}
+
+.cta-container button:hover {
+  cursor: pointer;
+}
