@@ -7,6 +7,14 @@
   font-family: Roboto;
 }
 
+/* Link button styling */
+
+a.button {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f9faf8;
+}
+
 /* Header nav */
 
 header {
@@ -74,10 +82,9 @@ a {
   color: #e5e7eb;
 }
 
-.flex-left button {
-  max-width: max-content;
+.hero a.button {
   background-color: #3882f6;
-  color: #fff;
+  max-width: max-content;
   font-size: medium;
   font-weight: bold;
   border: none;
@@ -96,14 +103,6 @@ a {
   max-height: 90%;
   border: none;
   border-radius: 10px;
-}
-
-.hero button a {
-  color: #fff;
-}
-
-.hero button:hover {
-  cursor: pointer;
 }
 
 /* Main body content */
@@ -193,23 +192,13 @@ h3.main-info-header {
   font-size: 18px;
 }
 
-.cta-container button {
+.cta-container a.button {
   min-width: max-content;
-  background-color: #3882f6;
-  color: #f9faf8;
   font-size: medium;
   font-weight: bold;
   border: 2px solid #f9faf8;
   border-radius: 10px;
   padding: 8px 32px;
-}
-
-.cta-container button a {
-  color: #f9faf8;
-}
-
-.cta-container button:hover {
-  cursor: pointer;
 }
 
 /* Footer section */
