@@ -110,7 +110,7 @@ a {
 /* Square info box */
 
 .square-info-box {
-  padding: 64px 20vw;
+  padding: 64px 25vw;
   padding-bottom: 64px;
 }
 
@@ -152,7 +152,7 @@ h3.main-info-header {
 
 .quote-text-block {
   background-color: #e5e7eb;
-  padding: 128px 20vw;
+  padding: 128px 25vw;
 }
 
 .quote-text {
@@ -171,7 +171,7 @@ h3.main-info-header {
 /* CTA section */
 
 .cta {
-  padding: 64px 5vw;
+  padding: 64px 20vw;
 }
 
 .cta-container {
@@ -181,7 +181,7 @@ h3.main-info-header {
   background-color: #3882f6;
   border: 1px solid #3882f6;
   border-radius: 10px;
-  padding: 64px 15vw;
+  padding: 64px 5vw;
 }
 
 .cta-text {
