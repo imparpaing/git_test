@@ -211,3 +211,18 @@ h3.main-info-header {
 .cta-container button:hover {
   cursor: pointer;
 }
+
+/* Footer section */
+
+footer {
+  background-color: #1f2937;
+}
+
+.footer-container {
+  padding: 32px 20vw;
+  text-align: center;
+}
+
+.footer-container p {
+  color: #f9faf8;
+}
